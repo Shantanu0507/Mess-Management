@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./root.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    
+    <form action="/signUp" method="post">
+        <div class="input-field col s6">
+            <input id="email" type="email" name='email' class="validate">
+            <label for="last_name">Email</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="name" type="text" name="name" class="validate">
+            <label for="last_name">Name</label>
+          </div>
+        <div class="input-field col s6">
+            <input id="password" type="password" name="password" class="validate">
+            <label for="last_name">Password</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="name" type="text" name="department" class="validate">
+            <label for="last_name">Department</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="name" type="number" name="registration_id" class="validate">
+            <label for="last_name">Registration Id </label>
+          </div>
+          <div class="input-field col s6">
+            <input id="name" type="number" name="year" class="validate">
+            <label for="last_name">Year</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="name" type="number" name="mobile_no" class="validate">
+            <label for="last_name">Mobile No</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="name" type="number" name="father_mobile_no" class="validate">
+            <label for="last_name">Fathers Mobile No</label>
+          </div>
+          <button class="waves-effect waves-light btn button" type='submit' >Sign Up</button>  
+    </form>
+
+</body>
+</html>

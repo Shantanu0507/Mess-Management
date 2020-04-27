@@ -1,0 +1,16 @@
+body{
+    background: #f7f7f7;
+    padding: 10px 20%;
+}
+
+.input-box{
+    padding:10px;
+    margin:10px;
+    box-shadow: none;
+}
+
+.button {
+    width: 100%;
+    
+    border-radius: 10px;
+}

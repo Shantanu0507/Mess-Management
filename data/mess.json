@@ -1,0 +1,28 @@
+﻿ [
+        {
+            "mess_id": 1,
+            "mess_name": "A",
+            "manager_name": "Ram Bhau Kadam",
+            "manager_id": 1
+        },
+        {
+            "mess_id": 2,
+            "mess_name": "B",
+            "manager_name": "Kalash Patil",
+            "manager_id": 2
+        },
+        {
+            "mess_id": 3,
+            "mess_name": "B",
+            "manager_name": "Ulhas Deore",
+            "manager_id": 3
+
+        },
+        {
+            "mess_id": 5,
+            "mess_name": "C",
+            "manager_name": "Mangu Bhai",
+            "manager_id": 4
+
+        }
+    ]

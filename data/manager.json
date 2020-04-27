@@ -1,0 +1,34 @@
+﻿ [
+        {
+            "mess_name": "A",
+            "manager_name": "Ram Bhau Kadam",
+            "manager_contact": "9846219865",
+            "password": "54321",
+            "manager_id": 1
+            
+        },
+        {
+            "mess_name": "B",
+            "manager_name": "Kalash Patil",
+            "manager_contact": "9978561265",
+            "password": "54321",
+            "manager_id": 2
+            
+        },
+        {
+            "mess_name": "B",
+            "manager_name": "Ulhas Deore",
+            "manager_contact": "9979461356",
+            "password": "54321",
+            "manager_id": 3
+            
+        },
+        {
+            "mess_name": "C",
+            "manager_name": "Mangu Bhai",
+            "manager_contact": "9756202165",
+            "password": "54321",
+            "manager_id": 4
+            
+        }
+    ]

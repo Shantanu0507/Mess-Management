@@ -1,0 +1,21 @@
+body{
+    padding: 0 5%;
+}
+
+.container {
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#eeeeee;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.spaced {
+    display:flex;
+    justify-content:space-between;
+}
+
+.center{
+    align-self: center;
+}

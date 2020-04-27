@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+    <link rel="stylesheet" href="./home.css">
+    
+    <title>Manager</title>
+</head>
+<body>
+
+    <% if(total != null ) { %> 
+        <div class='container' style="background-color: white;">
+            <div class="spaced">
+                <h5><%= manager %></h5>
+                <h5><%= total %></h5>
+            </div>
+        </div>
+     <% } %>
+
+    <% data.forEach(stud => { %>
+      <a href="/?id=<%=stud.id%>" style="text-decoration:none; color:black">
+            <div class='container'>
+            <div class="spaced">
+                <p><%= stud.name %></p>
+                <p><%= stud.monthly_total %></p>
+            </div>
+        </div>
+      </a>
+   <% }) %>
+
+
+
+
+</body>
+</html>
